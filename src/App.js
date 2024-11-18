@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Courseitem from "./components/Courseitem";
 import CourseListCard from "./components/course/CourseListCard";
+import Library from "./components/step01/Library";
 
 // function Main() {
 //   return(
@@ -24,25 +25,31 @@ import CourseListCard from "./components/course/CourseListCard";
 // > class 대신 className이라고 사용한다.
 function App() {
   return (
-    <main>
-      {/* <Header />
-      <Main />
-      <Footer /> */}
+    <div className="APP">
+      {/* // <main>
+    //   <Header />
+    //   <Main />
+    //   <Footer /> 
 
-      {/* <div className="card">
-        <div className="card__header">강의 목록</div>
-        <div className="card__body">
-          <div className="courses">
-             <Courseitem />
-            <Courseitem />
-            <Courseitem /> 
-          </div>
+    //    2단계 
+    //    <div className="card">
+    //     <div className="card__header">강의 목록</div>
+    //     <div className="card__body">
+    //       <div className="courses">
+    //          <Courseitem />
+    //         <Courseitem />
+    //         <Courseitem /> 
+    //       </div>
       
-        </div>
-      </div>  */}
+    //     </div>
+    //   </div>  
 
-      <CourseListCard />
-    </main>
+    //    3단계 
+    //    <CourseListCard /> 
+
+    //  </main>  */}
+      <Library />
+    </div>
   );
 }
 
